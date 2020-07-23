@@ -1,0 +1,24 @@
+.footer {
+    background: getColour(grey);
+    flex-shrink: 0;
+    color: getColour(dark-grey);
+    padding: 1rem;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__links {
+        margin-top: 0.5rem;
+        color: getColour(primary);
+    }
+
+    &__link {
+        color: getColour(primary);
+        text-decoration: none;
+
+        &:hover {
+            color: getColour(secondary);
+        }
+    }
+}

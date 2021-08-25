@@ -12,7 +12,7 @@
         background: white;
         position: relative;
 
-        &:before {
+        &:before, %circle-item-before {
             content: "White";
             position: absolute;
             color: getColour(dark-grey);
@@ -28,7 +28,7 @@
             border: none;
 
             &:before {
-                @extend .circles__item:before;
+                @extend %circle-item-before;
                 content: "Green";
                 color: white;
             }
@@ -40,7 +40,7 @@
             background: getColour(primary);
 
             &:before {
-                @extend .circles__item:before;
+                @extend %circle-item-before;
                 content: "Pink";
                 color: white;
             }

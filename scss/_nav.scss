@@ -1,0 +1,24 @@
+.nav {
+  &__inner {
+    padding-left: 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+  }
+
+  &__item {
+    color: $textPrimary;
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  &__link {
+    color: $textPrimary;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: $textSecondary;
+  }
+}
